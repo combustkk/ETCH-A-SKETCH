@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ETCH-A-SKETCH</title>
+  </head>
+  <body>
+    <h1>ETCH-A-SKETCH</h1>
+    <div id="reset">
+      <input type="number" min="1" max="100" value="16"></input>
+      <button id="clear">clear</button>
+    </div>
+
+    <div id="bodyContent">
+      <div id="colorPicker">
+        <div id="ranges">
+          <input type="range" id="red" min="1" max="255">RED</input>
+          <input type="range" id="green" min="1" max="255">GREEN</input>
+          <input type="range" id="blue" min="1" max="255">BLUE</input>
+          <button>random</button>
+        </div>
+        <div id="displayColor"></div>
+      </div>
+
+      <div id="container">
+      </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>

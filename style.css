@@ -1,0 +1,83 @@
+body, html
+{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  justify-content: center;
+  overflow: scroll;
+  text-align: center;
+
+}
+#reset
+{
+  display: inline-block;
+}
+#reset>input
+{
+  font-size: 1rem;
+  -webkit-appearance: none;
+  font-family: monospace;
+  border:solid black 1px;
+}
+button
+{
+  -webkit-appearance: none;
+  font-family: monospace;
+  font-size: 1rem;
+  text-shadow: 2px 2px rgb(128, 128, 128);
+  border-radius: 0;
+  border:solid black 1px;
+}
+#bodyContent
+{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+#colorPicker
+{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px;
+}
+#ranges
+{
+  display:flex;
+  font-size: 1rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+#displayColor
+{
+  margin-left: 10px;
+  border:solid black 1px;
+  height:30px;
+  width:30px;
+}
+.square
+{
+  background-color: white;
+  border: 0;
+  transition: background-color 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+#container
+{
+  align-self: flex-start;
+  border: black solid 2px;
+  display: grid;
+  width: 80vh;
+  height: 80vh;
+}
