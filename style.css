@@ -28,6 +28,7 @@ body
 #reset
 {
   display: inline-block;
+  margin: 10px;
 }
 #reset>input
 {
