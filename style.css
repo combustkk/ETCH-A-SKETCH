@@ -5,8 +5,16 @@ body, html
   width: 100%;
 }
 
+h1
+{
+  color:yellow;
+}
+
 body
 {
+  background-image: url(https://cdn.pixabay.com/photo/2014/01/31/18/01/watercolour-255615_1280.jpg);
+  background-size: cover;
+  background-position: center; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,6 +64,7 @@ button
   font-size: 1rem;
   flex-direction: column;
   text-align: center;
+  text-shadow: 2px 2px rgb(128, 128, 128);
 }
 
 #displayColor
